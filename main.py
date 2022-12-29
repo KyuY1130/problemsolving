@@ -1,10 +1,5 @@
-X= int(input())#총액
-N= int(input())#종류
-result=0
-for i in range(N):
-  a,b = map(int, input().split())
-  result += a*b
-if X==result:
-  print("Yes")
-else :
-  print('No')
+import sys
+T= int(input())
+for i in range(T):
+  a,b = map(int, sys.stdin.readline().split())
+  print(a+b)
