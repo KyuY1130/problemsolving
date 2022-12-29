@@ -1,4 +1,0 @@
-sys.stdin.readline()은 input()을 대체하는 코드로
-입출력시 input()의 시간초과 현상을 해결할 수 있다.
-
-input()은 파이썬의 내장함수로 raw_input()을 evaluate함.
