@@ -1,1 +1,1 @@
-for i in range(int(input())):print('*'*-~i)
+for _ in range(10):print('test')
