@@ -9,3 +9,5 @@ elif b==c :
 else :
   price= min(a,b,c)*100
 print(price)
+
+# *_,a,b,c=sorted(input());print(['1'+b,c][a<b<c]+'000'[a<c:])
