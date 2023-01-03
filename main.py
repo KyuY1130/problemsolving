@@ -1,1 +1,1 @@
-for _ in range(10):print('test')
+X,N,*A=open(0)

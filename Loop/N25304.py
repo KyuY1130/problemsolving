@@ -8,3 +8,6 @@ if X==result:
   print("Yes")
 else :
   print('No')
+
+X,N,*A=open(0)
+print("YNeos"[int(X)!=sum(eval(i.replace(*' *'))for i in A)::2])
