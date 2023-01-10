@@ -1,3 +1,3 @@
-li = [(end:=i) if i else (start:=0) else (start:=0) for i in range(5)]
-print(li)
-print(start, end)
+while True:
+  A,B =map(int, input().split())
+  print(A+B)
