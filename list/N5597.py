@@ -6,3 +6,4 @@ for i in range(28):
 print(min(a))
 print(max(a))
   
+# print(*sorted({*range(1,31)}-{*map(int,open(0))}))
