@@ -8,3 +8,7 @@ for i in range(len(a)):
   sum += a[i]
 sum1=sum/n
 print(sum1)
+
+
+# n,*l=map(int,open(0).read().split())
+# print(sum(l)*100/max(l)/n)
