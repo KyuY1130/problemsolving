@@ -1,12 +1,5 @@
-n=int(input())
-for i in range(n):
-  a=list(input())
-  b=0
-  c=0
-  for d in a:
-    if d=='O':
-      b+=1
-      c+=b
-    else :
-      b=0
-  print(c)
+print("I eat %d apples." % 3)
+print("I eat %s apples." % "five")
+number =10
+day="three"
+print("I ate %d apples. so I was sick for %s days." % (number, day))
