@@ -1,6 +1,7 @@
-A,B,C=map(int,input().split())
-#A+B*n=C*next
-if B-C > 0:
-  print(-1)
+A, B, V = map(int, input().split())
+
+x = (V-B)/(A-B)
+if x == int(x):
+    print(int(x))
 else:
-  print(int(A/(C-B))+1)
+    print(int(x) + 1)
