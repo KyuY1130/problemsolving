@@ -1,12 +1,16 @@
-T=int(input())
-for i in range(T):  
-  H,W,N=map(int,input().split())
-#한층의 방 개수 W
-#층수 H
-#몇 번쨰 손님 N
-  a=N//H+1
-  b=N%H
-  if N%H ==0:
-    a=N//H
-    b=H
-  print(b*100+a)
+t= int(input())
+for i in range(t):
+  k=int(input())
+  n=int(input())
+  b=[]
+  for i in range(n):
+      b.append(i+1)
+  for i in range(k):
+    a=[]
+    sum=0
+    for i in b:
+      sum+=i
+      a.append(sum)
+    b=a
+  print(b[-1])
+    
