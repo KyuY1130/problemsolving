@@ -14,4 +14,4 @@ while True:
       sosu+=1
   print(sosu)
 
-https://ji-gwang.tistory.com/218
+https://ji-gwang.tistory.com/
